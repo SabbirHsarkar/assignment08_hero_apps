@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../../assets/asset/logo.png"
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -33,8 +34,10 @@ const Navbar = () => {
       <li><a>Installation</a></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
+  <div className="navbar-end ">
+   
+    <a href='https://github.com/SabbirHsarkar' className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
+"><FaGithub />Contribute</a>
   </div>
 </div>
     );
