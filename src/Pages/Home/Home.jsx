@@ -17,7 +17,7 @@ const Home = () => {
 ;
     }
 
-     const popularApp = appData.filter((app) => app.popular === "trend");
+     const popularApp = appData.filter((app) => app.popular === "popular");
   
     return (
         <div>

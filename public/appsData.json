@@ -9,7 +9,7 @@
     "reviews": 2500,
     "ratingAvg": 4.6,
     "downloads": 120000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -46,7 +46,7 @@
     "reviews": 3200,
     "ratingAvg": 4.8,
     "downloads": 175000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 80 },
       { "name": "2 star", "count": 100 },
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/4.png",
+    "image": "https://play-lh.googleusercontent.com/NxKqwBq8iCpn7WgNmgqm91PYDtaqjCSgJjVZ3wQb9rNvBXuJVC-FTm_AnHDykFDZOc0",
     "title": "NoteWise",
     "companyName": "BrainBox Ltd.",
     "id": 4,
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/5.png",
+    "image": "https://avatars.githubusercontent.com/u/173172137?s=280&v=4",
     "title": "TravelEase",
     "companyName": "GoSmart Inc.",
     "id": 5,
@@ -83,7 +83,7 @@
     "reviews": 3100,
     "ratingAvg": 4.7,
     "downloads": 210000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 130 },
@@ -93,7 +93,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/6.png",
+    "image": "https://play-lh.googleusercontent.com/pOupe7xXiOPZQ-N6oYWkjbeWIBm_ecy7FSY2oCMAZEseZjK6SCwu9Up15cqP20a8AZs=w240-h480-rw",
     "title": "EduHub",
     "companyName": "FutureLearn",
     "id": 6,
@@ -102,7 +102,7 @@
     "reviews": 4300,
     "ratingAvg": 4.9,
     "downloads": 340000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 60 },
       { "name": "2 star", "count": 90 },
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/7.png",
+    "image": "https://play-lh.googleusercontent.com/rBSRMvRDCWy2E8z2flaqVknA8FrODRarwo04ybS3f7mSQrsVpvhp4_oy1-IyeM6ve6w",
     "title": "MediLink",
     "companyName": "HealthNet BD",
     "id": 7,
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/8.png",
+    "image": "https://play-lh.googleusercontent.com/dh9Fk20MwwASwsbdcbU3ZkGPqmowJIB92NJ-LCavxGlFBli36ByMYtYZkpVtqqJNbA",
     "title": "EcoTrack",
     "companyName": "GreenVerse",
     "id": 8,
@@ -148,7 +148,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/9.png",
+    "image": "https://play-lh.googleusercontent.com/z7QKFNBFvcwIZXtqrK7lnyyp7nzpPGCF7gCg0FyZ81PXXivycC_4vLqzwQ1wLACZ7Jg",
     "title": "Foodify",
     "companyName": "UrbanEats",
     "id": 9,
@@ -157,7 +157,7 @@
     "reviews": 3900,
     "ratingAvg": 4.8,
     "downloads": 310000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/10.png",
+    "image": "https://play-lh.googleusercontent.com/rG5929DoTByg07Q2ugmpTIIzp1CkP9I6X3j36KDwOmpbGGFSSfNCiLb3v2VdlRhZJTic",
     "title": "FinSmart",
     "companyName": "WealthBase",
     "id": 10,
@@ -185,7 +185,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/11.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBcGrJKGnJS0V3AGtVA94SK1dZkokbfSn6-A&s",
     "title": "SkillHive",
     "companyName": "TalentGrow",
     "id": 11,
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/12.png",
+    "image": "https://play-lh.googleusercontent.com/UOUbd8Ihp23y9VgoH-SpwA70zmCDuDz0XMKLfgvTH2hhfyiK5aelpKIBfh2dHT3xQQ=w526-h296-rw",
     "title": "GameVerse",
     "companyName": "NextPlay Studio",
     "id": 12,
@@ -212,7 +212,7 @@
     "reviews": 5600,
     "ratingAvg": 4.9,
     "downloads": 620000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 100 },
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/13.png",
+    "image": "https://play-lh.googleusercontent.com/OJYqhAcyhC60p1Er-uQCfYWpDzd8x_ujlQWutetqN4Q7X_Z2NHrqyJG1O_Egi5t81A",
     "title": "SafeWallet",
     "companyName": "CryptoCore",
     "id": 13,
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/14.png",
+    "image": "https://play-lh.googleusercontent.com/sT5LQIvDucNafUXMT-exLfehffK5rTnrLp_8g1a79g-AUu8BL-7iThTO08emjIGNgdnE",
     "title": "ShopMate",
     "companyName": "QuickCart",
     "id": 14,
@@ -249,7 +249,7 @@
     "reviews": 3400,
     "ratingAvg": 4.7,
     "downloads": 260000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 140 },
@@ -259,7 +259,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/15.png",
+    "image": "https://play-lh.googleusercontent.com/rWWb2gQZNBmL2wBqHX4fTHmLw0H3nlxblIW4JMcQgYdEG8SX5blGfx06-NG5va2Ke8cj",
     "title": "WeatherPro",
     "companyName": "SkyCast",
     "id": 15,
@@ -277,7 +277,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/16.png",
+    "image": "data:image/png;base64,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",
     "title": "ChatVerse",
     "companyName": "TalkLab",
     "id": 16,
@@ -286,7 +286,7 @@
     "reviews": 5200,
     "ratingAvg": 4.8,
     "downloads": 550000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 160 },
@@ -296,7 +296,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/17.png",
+    "image": "https://play-lh.googleusercontent.com/qo4rQGDCYkmKTavOQZHDdq8fuv7G7e8DTD96uVSW2IB8qYw9QT_eAkyigHkh_SKZDz2a",
     "title": "MindSpace",
     "companyName": "ZenSoft",
     "id": 17,
@@ -314,7 +314,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/18.png",
+    "image": "https://play-lh.googleusercontent.com/zpO2TM18Hbr5_sUxLlV5GqxpPtGEhDLN1XOokiTf7AVB8X1-3olfCGmsHc2qmisWbzg",
     "title": "BookNest",
     "companyName": "Readify Ltd.",
     "id": 18,
@@ -323,7 +323,7 @@
     "reviews": 3600,
     "ratingAvg": 4.7,
     "downloads": 240000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 110 },
       { "name": "2 star", "count": 140 },
@@ -333,7 +333,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/19.png",
+    "image": "https://play-lh.googleusercontent.com/Wy_tptY7YAdLZO6nyEvS-k_jZj-xaK5jnMRbchuNlmyFMW7ACDVCl1d0k224S0euQfE=w526-h296-rw",
     "title": "NewsPro",
     "companyName": "InfoFlow",
     "id": 19,
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/20.png",
+    "image": "https://play-lh.googleusercontent.com/howa0Tmo8ONYus4Gwt3Bh9ddC87XugjFh9Uh5PDhlagdlOpu3gEWYr5zGssefC8g9eM=w240-h480-rw",
     "title": "CookIt",
     "companyName": "TasteLab",
     "id": 20,
@@ -360,7 +360,7 @@
     "reviews": 4200,
     "ratingAvg": 4.9,
     "downloads": 380000,
-    "popular": "trend",
+    "popular": "popular",
     "ratings": [
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 120 },
@@ -370,7 +370,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/21.png",
+    "image": "https://play-lh.googleusercontent.com/ZVwZy1d0u5eYwG7RWdPzCEJts0AM73vzI5NrdsbqAaQIgJJ7IVEWp08s1bjzUbK_75k=w240-h480-rw",
     "title": "EventLink",
     "companyName": "Connectify",
     "id": 21,
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co/22.png",
+    "image": "https://play-lh.googleusercontent.com/5uDUy2xH-2wovIrVPyMuXnyklMB4KFAmmx40d3yGX-RRBfdZRlhd7Us1x3P_xkJL5Cs=w240-h480-rw",
     "title": "DailyQuotes",
     "companyName": "InspireMe",
     "id": 22,
