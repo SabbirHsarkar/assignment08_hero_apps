@@ -6,6 +6,7 @@ import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import Home from '../Pages/Home/Home';
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -14,9 +15,13 @@ export const router = createBrowserRouter([
     children:[
         {
             index:true,
+            loader:()=>fetch('/appsData.json'),
+        
         path:"/",
         Component:Home
-        }
+        },
+         
+     
     ]
         
         
