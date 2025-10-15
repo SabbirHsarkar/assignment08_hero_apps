@@ -4,6 +4,9 @@ import { createBrowserRouter } from "react-router";
 import Root from '../Pages/Root/Root';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import Home from '../Pages/Home/Home';
+import Apps from '../Components/Apps/Apps';
+
+
 
 
 
@@ -18,9 +21,16 @@ export const router = createBrowserRouter([
             loader:()=>fetch('/appsData.json'),
         
         path:"/",
-        Component:Home
+        Component: Home
         },
-         
+        {
+          path:'/apps',
+          loader: ()=>fetch('/appsData.json'),
+          Component:Apps
+
+
+
+        },  
      
     ]
         

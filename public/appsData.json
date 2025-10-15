@@ -157,7 +157,7 @@
     "reviews": 3900,
     "ratingAvg": 4.8,
     "downloads": 310000,
-    "popular": "popular",
+    "popular": "",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -212,7 +212,7 @@
     "reviews": 5600,
     "ratingAvg": 4.9,
     "downloads": 620000,
-    "popular": "popular",
+    "popular": "",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 100 },
