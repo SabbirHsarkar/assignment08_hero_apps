@@ -9,10 +9,6 @@ import Loader from "../Loader/Loader";
 
 
 const InstallApp = () => {
-    const navigation = useNavigation();
-    if (navigation.state === "loading") {
-  return <Loader />;
-}
 
 
 
@@ -52,7 +48,13 @@ const InstallApp = () => {
     setInstalledApps(sortedApps);
   };
 
+    const navigation = useNavigation();
+    if (navigation.state === "loading") {
+  return <Loader />;
+}
+
     return (
+        
 
         <div className="w-11/12 mx-auto py-10">
       <h1 className="text-3xl font-bold mb-2 text-center">Your Installed Apps</h1>

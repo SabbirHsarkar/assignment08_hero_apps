@@ -9,12 +9,7 @@ import Loader from '../Loader/Loader';
 const Apps = () => {
     const apps=useLoaderData();
     console.log(apps);
-    const navigation = useNavigation();
 
-if (navigation.state === "loading") {
-  return <Loader />;
-}
-   
 
   // states
   const [searchValue, setSearchValue] = useState('');
@@ -43,6 +38,12 @@ if (navigation.state === "loading") {
   const handleSearch = (e) => {
     setSearchValue(e.target.value);
   };
+      const navigation = useNavigation();
+
+if (navigation.state === "loading") {
+  return <Loader />;
+}
+   
 
     return (
        <div className="p-4 md:p-10 mx-auto">
