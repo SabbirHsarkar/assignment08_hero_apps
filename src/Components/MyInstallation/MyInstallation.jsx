@@ -8,7 +8,7 @@ import { useNavigation } from "react-router";
 import Loader from "../Loader/Loader";
 
 
-const InstallApp = () => {
+const MyInstallation = () => {
 
 
 
@@ -136,4 +136,4 @@ const InstallApp = () => {
     );
 };
 
-export default InstallApp;
+export default MyInstallation;

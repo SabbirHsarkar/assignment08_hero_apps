@@ -8,7 +8,8 @@ import Apps from '../Components/Apps/Apps';
 import App from '../App';
 import SingleApp from '../Components/App/SingleApp';
 import AppDetails from '../Components/AppDetails/AppDetails';
-import InstallApp from '../Components/InstallApp/InstallApp';
+import InstallApp from '../Components/MyInstallation/MyInstallation';
+import MyInstallation from '../Components/MyInstallation/MyInstallation';
 
 
 
@@ -52,7 +53,7 @@ export const router = createBrowserRouter([
         {
           path:'/installation',
           loader: ()=>fetch('/appsData.json'),
-          Component:InstallApp
+          Component:MyInstallation
         }
      
     ]
