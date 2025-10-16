@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
@@ -11,6 +11,30 @@ import review from "../../assets/asset/icon-review.png"
 
 const AppDetails = () => {
     const app= useLoaderData();
+
+   
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    const alreadyInstalled = installedApps.find(a => a.id === app.id);
+    if (alreadyInstalled) {
+      setIsInstalled(true);
+    }
+  }, [app.id]);
+
+  const handleInstall = () => {
+    const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    const alreadyInstalled = installedApps.find(a => a.id === app.id);
+
+    if (!alreadyInstalled) {
+      installedApps.push(app);
+      localStorage.setItem("installedApps", JSON.stringify(installedApps));
+      setIsInstalled(true);
+    }
+  };
+
+
     if (!app) {
     return (
       <div className="text-center mt-10">
@@ -19,6 +43,8 @@ const AppDetails = () => {
       </div>
     );
   }
+
+  
     return (
         <div className="w-11/12 mx-auto py-10">
       <Link to={`/apps/${app.id}`} className="flex items-center gap-2 mb-6 text-blue-600 hover:underline">
@@ -71,9 +97,14 @@ const AppDetails = () => {
                 </div>
           </div>
 
-          <button className="btn btn-success text-white px-6">
-            Install Now ({app.size} MB)
+          <button
+            onClick={handleInstall}
+            disabled={isInstalled}
+            className={`btn px-6 text-white ${isInstalled ? "bg-gray-500 cursor-not-allowed" : "btn-success"}`}
+          >
+            {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
           </button>
+          
         </div>
       </div>
 
