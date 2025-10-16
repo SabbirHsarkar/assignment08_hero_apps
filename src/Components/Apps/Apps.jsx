@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLoaderData } from 'react-router';
+import { Link, useLoaderData, useNavigation } from 'react-router';
 import SingleApp from '../App/SingleApp';
 import Searching from '../../Pages/ErrorPage/Searching';
 import AppsNotFound from '../../Pages/ErrorPage/AppsNotFound';
+import Loader from '../Loader/Loader';
 
 
 const Apps = () => {
     const apps=useLoaderData();
     console.log(apps);
+    const navigation = useNavigation();
+
+if (navigation.state === "loading") {
+  return <Loader />;
+}
    
 
   // states

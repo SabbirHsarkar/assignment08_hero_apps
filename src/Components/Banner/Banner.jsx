@@ -38,7 +38,7 @@ const Banner = () => {
        
        <div className="mt-8 flex justify-center gap-4">
        <a
-       href=""
+       href="https://play.google.com/store/games?device=windows"
      className="flex items-center gap-2 px-6 py-3 bg-white border border-gray-300 rounded-lg shadow hover:bg-gray-100 transition"
           >
         <FaGooglePlay />
@@ -46,7 +46,7 @@ const Banner = () => {
           </a>
 
           <a
-            href=""
+            href="https://www.apple.com/app-store/"
             className="flex items-center gap-2 px-6 py-3 bg-white border border-gray-300 rounded-lg shadow hover:bg-gray-100 transition"
           >
             <FaAppStoreIos />

@@ -4,9 +4,17 @@ import download from "../../assets/asset/icon-downloads.png"
 import rating from "../../assets/asset/icon-ratings.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigation } from "react-router";
+import Loader from "../Loader/Loader";
 
 
 const InstallApp = () => {
+    const navigation = useNavigation();
+    if (navigation.state === "loading") {
+  return <Loader />;
+}
+
+
 
 
      const [installedApps, setInstalledApps] = useState([]);
@@ -36,9 +44,9 @@ const InstallApp = () => {
 
     let sortedApps = [...installedApps];
     if (order === "low-high") {
-      sortedApps.sort((a, b) => a.size - b.size);
+      sortedApps.sort((a, b) => a.downloads - b.downloads);
     } else if (order === "high-low") {
-      sortedApps.sort((a, b) => b.size - a.size);
+      sortedApps.sort((a, b) => b.downloads - a.downloads);
     }
 
     setInstalledApps(sortedApps);
