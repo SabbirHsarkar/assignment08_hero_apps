@@ -4,6 +4,9 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from "recharts";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import download from "../../assets/asset/icon-downloads.png"
 import rating from "../../assets/asset/icon-ratings.png";
 import review from "../../assets/asset/icon-review.png"
@@ -31,6 +34,17 @@ const AppDetails = () => {
       installedApps.push(app);
       localStorage.setItem("installedApps", JSON.stringify(installedApps));
       setIsInstalled(true);
+       toast.success(`${app.title} installed successfully! `, {
+      position: "top-center",
+      autoClose: 1500,
+     
+      
+    });
+  } else {
+    toast.info(`${app.title} is already installed!`, {
+      position: "top-center",
+      autoClose: 1500,
+    });
     }
   };
 
@@ -135,6 +149,7 @@ const AppDetails = () => {
           {app.description || "This app helps you manage tasks efficiently and stay organized."}
         </p>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
     );
 };

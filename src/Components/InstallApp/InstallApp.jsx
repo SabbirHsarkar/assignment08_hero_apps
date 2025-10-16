@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import download from "../../assets/asset/icon-downloads.png"
 import rating from "../../assets/asset/icon-ratings.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 const InstallApp = () => {
@@ -20,6 +22,10 @@ const InstallApp = () => {
     const updatedApps = installedApps.filter(app => app.id !== id);
     localStorage.setItem("installedApps", JSON.stringify(updatedApps));
     setInstalledApps(updatedApps);
+    toast.info("App uninstalled successfully!", {
+    position: "top-center",
+    autoClose: 2000,
+    });
   };
 
 //  sort-handle
@@ -115,6 +121,7 @@ const InstallApp = () => {
           </div>
         ))
       )}
+      <ToastContainer></ToastContainer>
     </div>
     );
 };
