@@ -4,6 +4,7 @@ import TopShowApp from '../../Components/ShowingApps/TopShowApp';
 import { useLoaderData } from 'react-router';
 import { useNavigation } from 'react-router';
 import Loader from '../../Components/Loader/Loader';
+import StatesSection from '../../Components/StatesSection/StatesSection';
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
     return (
         <div>
            <Banner></Banner>
+           <StatesSection></StatesSection>
            <TopShowApp popularApp={popularApp}></TopShowApp>
 
             

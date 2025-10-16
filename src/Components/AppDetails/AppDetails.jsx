@@ -61,7 +61,7 @@ const AppDetails = () => {
   
     return (
         <div className="w-11/12 mx-auto py-10">
-      <Link to={`/apps/${app.id}`} className="flex items-center gap-2 mb-6 text-blue-600 hover:underline">
+      <Link to={`/apps`} className="flex items-center gap-2 mb-6 text-blue-600 hover:underline">
         ← Back to Apps
       </Link>
 
