@@ -6,7 +6,7 @@ import ratings from "../../assets/asset/icon-ratings.png"
 const TrendApps = ({singleApp}) => {
     
     return (
-     <Link to={`/apps`}>
+     <Link to={``}>
             <div className="card bg-base-200 shadow-sm">
        <figure>
           <img className='h-[150px] w-[150px] m-3 '

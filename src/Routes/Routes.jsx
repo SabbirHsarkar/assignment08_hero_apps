@@ -5,6 +5,8 @@ import Root from '../Pages/Root/Root';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import Home from '../Pages/Home/Home';
 import Apps from '../Components/Apps/Apps';
+import App from '../App';
+import SingleApp from '../Components/App/SingleApp';
 
 
 
@@ -27,10 +29,13 @@ export const router = createBrowserRouter([
           path:'/apps',
           loader: ()=>fetch('/appsData.json'),
           Component:Apps
-
-
-
-        },  
+        }, 
+        
+        {
+          path:"/apps",
+          loader:()=>fetch('/appsData.json'),
+          Component:SingleApp
+        }
      
     ]
         
